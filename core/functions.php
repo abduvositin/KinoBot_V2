@@ -42,13 +42,15 @@ function getUserStep($connect, $user_id) {
 }
 
 function registerUserIfNotExists($connect, $user_id) {
-    $result = mysqli_query($connect,"SELECT * FROM users WHERE user_id = '$user_id'");
+    $result = mysqli_query($connect, "SELECT * FROM users WHERE user_id = '$user_id'");
     $row = mysqli_fetch_assoc($result);
+    
     if (!$row) {
-        $registered_date = date("d.m.Y H:i");
-        mysqli_query($connect,"INSERT INTO users(`user_id`,`time`,`step`) VALUES ('$user_id','$registered_date','none')");
+        $registered_date = date("Y-m-d H:i:s"); 
+        mysqli_query($connect, "INSERT INTO users (`user_id`, `time`, `step`) VALUES ('$user_id', '$registered_date', 'none')");
     }
 }
+
 
 
 function joinchat($id){
