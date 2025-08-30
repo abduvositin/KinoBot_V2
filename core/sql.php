@@ -21,17 +21,16 @@ $tables = [
         )
     ",
 
-    "users" => "
+   "users" => "
         CREATE TABLE IF NOT EXISTS users (
             id INT(20) NOT NULL AUTO_INCREMENT,
             user_id BIGINT NOT NULL,
-            time VARCHAR(100) NOT NULL,
+            time DATETIME NOT NULL,
             step VARCHAR(100) NOT NULL,
             PRIMARY KEY (id),
             INDEX idx_user_id (user_id)
         )
     ",
-
     "movies_data" => "
         CREATE TABLE IF NOT EXISTS movies_data (
             id INT(20) NOT NULL AUTO_INCREMENT,
