@@ -33,7 +33,7 @@ if (file_exists("step/counter.txt") == false) {
 }
 
 if (file_exists("step/sendCount.txt") == false) {
-    file_put_contents("sendCount.txt", 500);
+    file_put_contents("step/sendCount.txt", 500);
 }
 
 
