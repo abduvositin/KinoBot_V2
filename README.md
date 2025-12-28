@@ -35,10 +35,7 @@ Quyidagi ma’lumotlarni o‘z bazangizga moslang:
 ### 🔐 Foydalanish shartlari va Mualliflik huquqi
 Ushbu loyihadan foydalanishda quyidagi qoidalarga amal qilish majburiydir:
 
-❌ Sotish taqiqlanadi: Kodni pullik asosda tarqatish qat'iyan man etiladi.
-❌ Mualliflikni o‘zgartirish: Skriptdagi matnlarni o‘zgartirish sizni dasturchi qilmaydi. Mualliflik huquqini saqlab qoling.
-
-⚖️ Kod noqonuniy sotilgani aniqlansa choralar ko‘riladi.
+Mualliflikni o‘zgartirish: Skriptdagi matnlarni o‘zgartirish sizni dasturchi qilmaydi. Mualliflik huquqini saqlab qoling.
 
 ✔️ Halollik va mehnatni hurmat qilgan holda foydalaning.
 
