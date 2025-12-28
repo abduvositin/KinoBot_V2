@@ -32,15 +32,7 @@ Quyidagi ma’lumotlarni o‘z bazangizga moslang:
 
 ---
 
-## 🛰 Texnik Bog‘lanma
-
-### ⏱ Cron Job Sozlamasi
-Botning avtomatik yuborish funksiyasi ishlashi uchun **Cron** ni har 1 daqiqada quyidagi manzilga so‘rov yuboradigan qilib sozlang:
-```text
-[https://your-domain.uz/core/send?update=send](https://your-domain.uz/core/send?update=send)
-```
-
-###🔐 Foydalanish shartlari va Mualliflik huquqi
+### 🔐 Foydalanish shartlari va Mualliflik huquqi
 Ushbu loyihadan foydalanishda quyidagi qoidalarga amal qilish majburiydir:
 
 ❌ Sotish taqiqlanadi: Kodni pullik asosda tarqatish qat'iyan man etiladi.
@@ -49,3 +41,13 @@ Ushbu loyihadan foydalanishda quyidagi qoidalarga amal qilish majburiydir:
 ⚖️ Kod noqonuniy sotilgani aniqlansa choralar ko‘riladi.
 
 ✔️ Halollik va mehnatni hurmat qilgan holda foydalaning.
+
+
+## 🛰 Texnik Bog‘lanma
+
+### ⏱ Cron Job Sozlamasi
+Botning avtomatik yuborish funksiyasi ishlashi uchun **Cron** ni har 1 daqiqada quyidagi manzilga so‘rov yuboradigan qilib sozlang:
+```text
+[https://your-domain.uz/core/send?update=send](https://your-domain.uz/core/send?update=send)
+```
+
