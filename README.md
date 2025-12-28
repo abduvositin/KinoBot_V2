@@ -11,3 +11,10 @@ https://your-domain.uz/core/send?update=send
 
 ### Webhook
 https://api.telegram.org/bot<API_TOKEN>/setWebhook?url=https://your-domain.uz/main.php
+
+### ⚠️ Mualliflik huquqi
+❌ Ushbu kod sotilmasin
+❌ Kodni o‘zgartirib, o‘zingizni muallif deb ko‘rsatish taqiqlanadi.
+
+Agar kod sotilganini yoki mualliflik buzilganini aniqlasam, mualliflik huquqi bo‘yicha qonuniy choralar ko‘riladi.
+✔️ Foydalanish mumkin, ammo halollik va hurmat bilan.
