@@ -1,60 +1,51 @@
-Asosiy imkoniyatlar
+# 🎬 KinoBot V2 — Professional Kino Bot Skripti
 
-• 🎥 Kino va video kontent bilan ishlash
-• 🤖 Telegram Bot API asosida ishlaydi
-• ⏱ Cron orqali avtomatik xabar yuborish
-• 🔗 Webhook orqali tezkor javob
-• 👮 Admin boshqaruvi mavjud
+Telegram bot orqali kino va video kontentlarni boshqarish uchun mo‘ljallangan mukammal tizim.
 
-⚙️ O‘rnatish va sozlash
-1️⃣ Admin sozlash
+## 🚀 Asosiy Imkoniyatlar
+* 🎥 **Kontent boshqaruvi:** Kino va videolarni tizimli joylash.
+* 🤖 **Telegram API:** Bot API-ning eng so‘nggi imkoniyatlari.
+* ⏱ **Cron tizimi:** Xabarlarni avtomatik yuborish mexanizmi.
+* ⚡️ **Webhook:** Tezkor va barqaror javob qaytarish.
+* 👮 **Admin Panel:** To‘liq boshqaruv imkoniyati.
 
-Fayl: main.php
+---
 
-$owners ichiga admin Telegram ID kiriting
+## ⚙️ O‘rnatish va Sozlash
 
-2️⃣ Bot tokenini ulash
+Botni to‘g‘ri sozlash uchun quyidagi fayllarga o‘zgartirish kiriting:
 
-Fayl: core/bot.php
+### 1. Adminlarni tayinlash
+**Fayl:** `main.php`  
+`$owners` massiviga bot adminlarining Telegram ID raqamlarini kiriting.
 
-API_TOKEN o‘rniga Telegram bot tokenini yozing
+### 2. Bot Tokenini ulash
+**Fayl:** `core/bot.php`  
+`API_TOKEN` o‘rniga [@BotFather](https://t.me/BotFather) dan olingan tokenni yozing.
 
-3️⃣ Ma’lumotlar bazasi
+### 3. Ma’lumotlar bazasi
+**Fayl:** `core/sql.php`  
+Quyidagi ma’lumotlarni o‘z bazangizga moslang:
+* `username` — Baza foydalanuvchi nomi.
+* `password` — Baza paroli.
+* `database` — Baza nomi.
 
-Fayl: core/sql.php
+---
 
-Quyidagi ma’lumotlarni to‘ldiring:
-• database username
-• database password
-• database nomi
+## 🛰 Texnik Bog‘lanma
 
-⏱ Cron sozlamasi
+### ⏱ Cron Job Sozlamasi
+Botning avtomatik yuborish funksiyasi ishlashi uchun **Cron** ni har 1 daqiqada quyidagi manzilga so‘rov yuboradigan qilib sozlang:
+```text
+[https://your-domain.uz/core/send?update=send](https://your-domain.uz/core/send?update=send)
+```
 
-Cron’ni har 1 daqiqada ishlaydigan qilib sozlang:
+###🔐 Foydalanish shartlari va Mualliflik huquqi
+Ushbu loyihadan foydalanishda quyidagi qoidalarga amal qilish majburiydir:
 
-https://your-domain.uz/core/send?update=send
+❌ Sotish taqiqlanadi: Kodni pullik asosda tarqatish qat'iyan man etiladi.
+❌ Mualliflikni o‘zgartirish: Skriptdagi matnlarni o‘zgartirish sizni dasturchi qilmaydi. Mualliflik huquqini saqlab qoling.
 
-Bu botning avtomatik yuborish mexanizmi uchun zarur.
+⚖️ Kod noqonuniy sotilgani aniqlansa choralar ko‘riladi.
 
-🔗 Webhook ulash
-
-Webhook o‘rnatish uchun brauzerda oching:
-
-https://api.telegram.org/bot
-<API_TOKEN>/setWebhook?url=https://your-domain.uz/main.php
-
-<API_TOKEN> o‘rniga bot tokeningizni qo‘ying.
-
-🔐 Xavfsizlik va huquq
-
-❌ Ushbu kod sotilmaydi
-❌ Kodni o‘zgartirib, o‘zingizni muallif sifatida ko‘rsatish taqiqlanadi
-
-Agar kod noqonuniy tarqatilsa yoki sotilsa, mualliflik huquqi bo‘yicha qonuniy choralar ko‘riladi.
-
-✔️ Foydalanish mumkin, ammo halollik va hurmat asosida.
-
-👨‍💻 Muallif
-
-Abduvosit
-Telegram bot va Android dasturchi
+✔️ Halollik va mehnatni hurmat qilgan holda foydalaning.
